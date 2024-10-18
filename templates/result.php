@@ -5,7 +5,7 @@ namespace Challenge10\templates\Pages;
 use App\Calculator\AdditionCalculator;
 use App\EasySolution\Solution;
 
-require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 $additionCalculator = new AdditionCalculator();
 

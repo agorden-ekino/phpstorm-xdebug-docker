@@ -20,11 +20,16 @@ Build the image and run the container with the following commands
 ```shell
 docker build -t xdebug-phpstorm-docker . # Build the image
 docker run -d --rm -p 8080:8000 -v $(pwd):/var/www/html --name xdebug-phpstorm-docker xdebug-phpstorm-docker # Run the container in the background
+docker exec -it xdebug-phpstorm-docker composer install # Run composer to generate autoload files
 ```
 
 ## In Browser
 
 Go to the [localhost](http://localhost:8080/)
+
+## Container terminal
+
+You can access the container's command line with `docker exec -it xdebug-phpstorm-docker bash`
 
 ## Stop the container
 

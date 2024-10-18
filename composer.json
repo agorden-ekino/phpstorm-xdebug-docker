@@ -1,0 +1,10 @@
+{
+    "name": "php-friday/kata",
+    "type": "project",
+    "description": "Kata projects for the PHP Team",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

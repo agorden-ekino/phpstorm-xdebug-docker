@@ -31,8 +31,7 @@ $isIndex = $_SERVER['REQUEST_URI'] === '/index.php' || $_SERVER['REQUEST_URI'] =
                 ?>
                 <!-- External links below -->
                 <li class="nav-item">
-                    <!-- TODO: Replace the href attribute with the article's URL -->
-                    <a class="nav-link" href="https://medium.com/@arthur.gorden_83247" target="_blank">Medium Article</a>
+                    <a class="nav-link" href="https://medium.com/@arthur.gorden_83247/xdebug-configuration-phpstorm-docker-desktop-817da3005556" target="_blank">Medium Article</a>
                 </li>
             </ul>
         </div>
