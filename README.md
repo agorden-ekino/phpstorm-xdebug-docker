@@ -4,9 +4,9 @@
 
 ## 2 + 2 = 4?
 
-Is reality a simulation?
-Were Mathematics created by the Illuminati so that you'd be bad at school?
-Is the answer 42?
+Is reality a simulation?\
+Were Mathematics created by the Illuminati so that you'd be bad at school?\
+Is the answer 42?\
 Or is there a tiny bug in this application?
 
 ## Medium Article
@@ -15,7 +15,7 @@ Or is there a tiny bug in this application?
 
 ## Installation
 
-Build the image and run the container with the following commands
+Build the image and run the container with the following commands:
 
 ```shell
 docker build -t xdebug-phpstorm-docker . # Build the image
@@ -29,7 +29,11 @@ Go to the [localhost](http://localhost:8080/)
 
 ## Container terminal
 
-You can access the container's command line with `docker exec -it xdebug-phpstorm-docker bash`
+You can access the container's command line with:
+
+```shell
+docker exec -it xdebug-phpstorm-docker bash
+```
 
 ## Stop the container
 
